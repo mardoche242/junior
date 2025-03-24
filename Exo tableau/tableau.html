@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <style>
+
+        body{
+        
+            background-color: rgb(255, 245, 245);
+        }
+        .bloc{
+            /* width: 50%; */
+            margin: 0;
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+            position: relative;
+            top: 50px;
+        
+        }
+        table{
+    
+            box-shadow: 20px 20px 50px rgb(44, 23, 23);
+            border-collapse: collapse;
+    
+        }
+
+        table:hover{
+            box-shadow: 20px 20px 50px rgb(255, 255, 255);
+        }
+
+
+
+        td{
+            border: 1px solid black;
+            padding: 20px;
+        }
+
+        .case2 td{
+            background-color: rgb(0, 0, 0);
+            border: 1px solid rgb(255, 255, 255);
+    
+        }
+
+        #case1{
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD5n70phIgsn2n9yveLRCYXjSTrV5XAkmlQA&s);
+            border: 1px solid rgb(0, 0, 0);
+        }
+
+        video{
+            width: 100%;
+        height: 20vh;
+        
+        }
+
+        .mk td{
+        animation: changecolor 3s infinite;
+            border: 1px solid rgb(255, 255, 255);
+        }
+
+        @keyframes changecolor{
+            0%{
+                background-color: rgb(46, 4, 4);
+            }
+
+
+
+            25%{
+                background-color: rgb(5, 76, 17);
+            }
+            50%{
+                background-color: rgb(0, 0, 0);
+            }
+
+            75%{
+                background-color: rgb(3, 25, 106);
+            }
+
+            100%{
+                background-color: rgb(46, 4, 90);
+            }
+        }
+
+
+        #td1{
+        background: linear-gradient(80deg, rgb(46, 199, 4) 0%, rgba(255,255,0,1) 50%, rgb(255, 0, 0) 100%);
+            border: 1px solid rgb(0, 0, 0);
+        }
+    </style>
+    
+    <div class="bloc">
+
+        <!-- table 1 -->
+
+        <table>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td rowspan="2" id="td1"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <!-- <td></td> -->
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            
+        </table>
+
+
+        <!-- table 2 -->
+
+        <table>
+                    <tr>
+                    
+                        <td>
+                            <table class="case2">
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td>
+                    <video autoplay loop muted>
+    <source src="video.mp4" type="video/mp4">
+    Votre navigateur ne supporte pas la balise vidéo.
+</video>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="case1"></td>
+                        <td>
+
+                            <table class="case2" id="case">
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+        
+        </table>
+
+
+        <!-- table 3 -->
+
+
+<table class="mk">
+<tr>
+<td>
+    <table class="mk">
+    <tr>
+    
+    <td>
+    <table class="mk">
+    <tr>
+    <td>
+    <table class="mk">
+    <tr>
+    <td>
+    <table class="mk">
+    <tr>
+    <td></td>
+    </tr>
+    </table>
+    
+    </td>
+    </tr>
+    </table>
+    </td>
+    
+    </tr>
+    </table>
+    </td>
+    
+    </tr>
+    </table>
+
+</td>
+</tr>
+</table>
+
+
+
+
+
+    </div>
+
+
+
+</body>
+</html>
